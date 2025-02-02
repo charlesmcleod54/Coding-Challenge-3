@@ -23,3 +23,20 @@ let totalOrders = orders.reduce((acc, quantity) => acc + quantity, 0);
 // Log the updated array and total order count to the console
 console.log("Updated Orders:", orders);
 console.log("Total Order Count:", totalOrders);
+// Task 3
+// Declare an objective employee with properties
+let employee = {
+    name: "Josh Smith",
+    role: "Manager",
+    performanceScore: 91,
+    isActive: true
+};
+
+// Update the performanceScore property
+employee.performanceScore = 94;
+
+// Add a new property promotionEligible with a boolean value
+employee.promotionEligible = employee.performanceScore >= 94;
+
+// Log the updated employee object to the console
+console.log(employee);
